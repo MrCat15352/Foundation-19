@@ -1,3 +1,6 @@
+#ifndef MODPACK_CELADON_COMPONENTS
+#define MODPACK_CELADON_COMPONENTS
+
 #include "__components.dm"
 
 // Различный дополнительный функционал
@@ -6,3 +9,5 @@
 #include "code/security_state.dm"
 #include "code/mob_helpers.dm"
 #include "code/cards_ids.dm"
+
+#endif
