@@ -5,12 +5,3 @@
 	desc = "-"
 	/// A string with authors of this modpack.
 	author = "XAH"
-
-/datum/modpack/laptop_rotate/pre_initialize()
-	. = ..()
-
-/datum/modpack/laptop_rotate/initialize()
-	. = ..()
-
-/datum/modpack/laptop_rotate/post_initialize()
-	. = ..()

@@ -5,12 +5,3 @@
 	desc = "добавлена работа и класс в строку карты при экзамайне"
 	/// A string with authors of this modpack.
 	author = "XAH"
-
-/datum/modpack/human_examine/pre_initialize()
-	. = ..()
-
-/datum/modpack/human_examine/initialize()
-	. = ..()
-
-/datum/modpack/human_examine/post_initialize()
-	. = ..()
