@@ -3,6 +3,13 @@
 
 #include "_maps.dm"
 
-#include "site53/site53.dm"
+#include "mod_celadon/__maps/site53/site53-1.dmm"
+#include "mod_celadon/__maps/site53/site53-2.dmm"
+#include "mod_celadon/__maps/site53/site53-3.dmm"
+#include "mod_celadon/__maps/site53/site53-4.dmm"
+#include "mod_celadon/__maps/site53/site53-5.dmm"
+#include "mod_celadon/__maps/site53/z1_admin.dmm"
+#include "mod_celadon/__maps/site53/z2_transit.dmm"
+#include "mod_celadon/__maps/site53/away_mission-1.dmm"
 
 #endif
