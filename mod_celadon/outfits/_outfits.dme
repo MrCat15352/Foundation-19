@@ -3,8 +3,4 @@
 
 #include "_outfits.dm"
 
-#include "code/job/engineering.dm"
-#include "code/job/security.dm"
-#include "code/job/mtf.dm"
-
 #endif
