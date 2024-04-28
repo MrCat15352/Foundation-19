@@ -34,7 +34,7 @@
 	user.holder?.player_panel_new()
 	return TRUE
 
-/datum/keybinding/admin/admin_pm			# Celadon Changes => mod_celadon\_components\code\keybinds.dm
+/datum/keybinding/admin/admin_pm
 	hotkey_keys = list("F8")
 	// [CELADON-EDIT] - CELADON_COMPONENTS
 	/* // CELADON-EDIT - ORIGINAL
