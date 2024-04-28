@@ -10,9 +10,9 @@
 -->
 
 <!-- Название мода. Не важно на русском или на английском. -->
-## Мод-пример
+## Laptop
 
-ID мода: EXAMPLE
+ID мода: CELADON_LAPTOP
 <!--
   Название модпака прописными буквами, СОЕДИНЁННЫМИ_ПОДЧЁРКИВАНИЕМ,
   которое ты будешь использовать для обозначения файлов.
@@ -29,7 +29,8 @@ ID мода: EXAMPLE
 
 ### Изменения *кор кода*
 
-- `code/modules/mob/living.dm`: `proc/overriden_proc`, `var/overriden_var`
+- EDIT: `code\modules\modular_computers\computers\subtypes\dev_laptop.dm`: `/obj/item/modular_computer/laptop`: `icon`
+- EDIT: `code\modules\modular_computers\computers\modular_computer\variables.dm`: `/obj/item/modular_computer`: `var/icon_state_menu`, `var/icon_state_screensaver`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -72,7 +73,7 @@ ID мода: EXAMPLE
 
 ### Авторы:
 
-Твой_никнейм
+ХАН
 <!--
   Здесь находится твой никнейм
   Если работал совместно - никнеймы тех, кто помогал.
