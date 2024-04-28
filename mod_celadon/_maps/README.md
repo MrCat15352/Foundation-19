@@ -28,7 +28,7 @@ ID мода: CELADON_MAPS
 
 ### Изменения *кор кода*
 
-- REMOVE: `maps\site53\site53.dm`: `#include`: site53-1.dmm, site53-2.dmm, site53-3.dmm, site53-4.dmm, site53-5.dmm, z1_admin.dmm, z2_transit.dmm, away_mission-1.dmm -> Перемещены в `mod_celadon\__maps\_maps.dme`
+- REMOVE: `maps\site53\site53.dm`: `#include`: site53-1.dmm, site53-2.dmm, site53-3.dmm, site53-4.dmm, site53-5.dmm, z1_admin.dmm, z2_transit.dmm, away_mission-1.dmm -> Перемещены в `mod_celadon\_maps\maps\site53\`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
