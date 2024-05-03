@@ -237,10 +237,14 @@
 /*
 	Middle-Alt click
 	Used for pointing at something
-	|= Transfer to mod_celadon/_components/code/_components.dm =| */
-/* /mob/proc/AltMiddleClickOn(atom/A)
-	pointed(A)
-	return */
+*/
+// Фокусировка взгляда на Alt + СКМ
+/mob/proc/AltMiddleClickOn(atom/A)
+	// [CELADON-EDIT] - CELADON_COMPONENTS
+	// pointed(A) // CELADON-EDIT - ORIGINAL
+	face_direction(A)
+	// [/CELADON-EDIT]
+	return
 
 /*
 	Middle-Shift click

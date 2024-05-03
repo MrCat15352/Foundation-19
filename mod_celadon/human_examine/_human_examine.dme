@@ -3,6 +3,4 @@
 
 #include "_human_examine.dm"
 
-#include "code/human_examine.dm"
-
 #endif

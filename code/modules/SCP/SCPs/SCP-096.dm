@@ -167,6 +167,7 @@
 // AI procs
 
 ///Handles 096 AI
+// [CELADON-REMOVE] - CELADON_SCP_096 - Выключение ИИ, багован
 /*
 /mob/living/scp096/proc/handle_AI()
 	switch(current_state)
@@ -237,6 +238,7 @@
 			if(world.time > stagger_counter)
 				current_state = STATE_096_CHASING
 */
+// [/CELADON-REMOVE]
 //Overrides
 
 /mob/living/scp096/Life()

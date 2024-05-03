@@ -10,9 +10,9 @@
 -->
 
 <!-- Название мода. Не важно на русском или на английском. -->
-## Мод-пример
+## Laptop
 
-ID мода: EXAMPLE
+ID мода: CELADON_LAPTOP
 <!--
   Название модпака прописными буквами, СОЕДИНЁННЫМИ_ПОДЧЁРКИВАНИЕМ,
   которое ты будешь использовать для обозначения файлов.
@@ -29,7 +29,8 @@ ID мода: EXAMPLE
 
 ### Изменения *кор кода*
 
-- `code/modules/mob/living.dm`: `proc/overriden_proc`, `var/overriden_var`
+- EDIT: `code\modules\modular_computers\computers\subtypes\dev_laptop.dm`: `/obj/item/modular_computer/laptop`: `icon`
+- EDIT: `code\modules\modular_computers\computers\modular_computer\variables.dm`: `/obj/item/modular_computer`: `var/icon_state_menu`, `var/icon_state_screensaver`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -40,8 +41,7 @@ ID мода: EXAMPLE
 
 ### Оверрайды
 
-- `mods/_master_files/sound/my_cool_sound.ogg`
-- `mods/_master_files/code/my_modular_override.dm`: `proc/overriden_proc`, `var/overriden_var`
+- Отсутствуют
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
@@ -51,7 +51,7 @@ ID мода: EXAMPLE
 
 ### Дефайны
 
-- `code/__defines/~mods/example.dm`: `EXAMPLE_SPEED_MULTIPLIER`, `EXAMPLE_SPEED_BASE`
+- Отсутствуют
 <!--
   Если требовалось добавить какие-либо дефайны, укажи файлы,
   в которые ты их добавил, а также перечисли имена.
@@ -62,7 +62,7 @@ ID мода: EXAMPLE
 
 ### Используемые файлы, не содержащиеся в модпаке
 
-- `mods/_master_files/icons/obj/alien.dmi`
+- Отсутствуют
 <!--
   Будь то немодульный файл или модульный файл, который не содержится в папке,
   принадлежащей этому конкретному моду, он должен быть упомянут здесь.
@@ -72,7 +72,7 @@ ID мода: EXAMPLE
 
 ### Авторы:
 
-Твой_никнейм
+ХАН
 <!--
   Здесь находится твой никнейм
   Если работал совместно - никнеймы тех, кто помогал.

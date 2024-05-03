@@ -1,11 +1,13 @@
-/*
 /obj/item/modular_computer/laptop
 	anchored = TRUE
 	name = "laptop computer"
 	desc = "A portable computer."
 	hardware_flag = PROGRAM_LAPTOP
 	icon_state_unpowered = "laptop-open"
-	icon = 'icons/obj/modular_laptop.dmi'
+	// [CELADON-EDIT] - CELADON_LAPTOP
+	// icon = 'icons/obj/modular_laptop.dmi' // CELADON-EDIT - ORIGINAL
+	icon = 'mod_celadon/laptop_rotate/icons/laptop_rotate.dmi'
+	// [/CELADON-EDIT]
 	icon_state = "laptop-open"
 	icon_state_screensaver = "standby"
 	base_idle_power_usage = 25
@@ -44,4 +46,3 @@
 /obj/item/modular_computer/laptop/preset
 	anchored = FALSE
 	screen_on = FALSE
-*/
