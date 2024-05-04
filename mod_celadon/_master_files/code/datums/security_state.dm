@@ -108,7 +108,7 @@
 	post_status("alert")
 
 /decl/security_level
-	var/icon = 'mod_celadon/_components/icon/security_state.dmi'
+	var/icon = 'mod_celadon/_components/icons/security_state.dmi'
 	var/name
 	var/alarm_level = "off"
 

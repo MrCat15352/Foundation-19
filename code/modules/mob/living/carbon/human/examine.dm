@@ -1,4 +1,3 @@
-/*
 /mob/living/carbon/human/examine(mob/user, distance)
 	. = TRUE
 	var/skipgloves = 0
@@ -117,9 +116,14 @@
 		msg += "[p_they(TRUE)] [p_have()] [r_ear.get_examine_line(user)] on [p_their()] right ear.\n"
 
 	//ID
-
 	if(wear_id)
-		msg += "[p_they(TRUE)] [p_are()] wearing [wear_id.get_examine_line(user)].\n"
+		// [CELADON-ADD] - CELADON_HUMAN_EXAMINE
+		var/obj/item/card/id/id = GetIdCard()
+		// [/CELADON-ADD]
+		// [CELADON-EDIT] - CELADON_HUMAN_EXAMINE
+		// msg += "[p_they(TRUE)] [p_are()] wearing [wear_id.get_examine_line(user)].\n" // CELADON-EDIT - ORIGINAL
+		msg += "[p_they(TRUE)] [p_are()] wearing [wear_id.get_examine_line(user)]. Job: [id.assignment], [id.class]\n "
+		// [/CELADON-EDIT]
 
 	//handcuffed?
 	if(handcuffed)
@@ -406,4 +410,3 @@
 	HTML +="<a href='?src=\ref[src];flavor_change=done'>\[Done\]</a>"
 	HTML += "<tt>"
 	show_browser(src, jointext(HTML,null), "window=flavor_changes;size=430x300")
-*/
