@@ -29,6 +29,7 @@ ID мода: CELADON_SCP_096
 ### Изменения *кор кода*
 
 - REMOVE: `code\modules\SCP\SCPs\SCP-096.dm`: `/mob/living/scp096/proc/handle_AI()` - Комментирование кода ИИ за 096 по причине багованности
+- REMOVE: `code\modules\SCP\SCPs\SCP-096.dm`: `// #undef STATE_096_IDLE // #undef STATE_096_CHASING //  // #undef STATE_096_STAGGERED` - Комментирование для последующего использования
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -38,7 +39,7 @@ ID мода: CELADON_SCP_096
 -->
 
 ### Оверрайды
-
+отсутствуют
 - `mods/_master_files/sound/my_cool_sound.ogg`
 - `mods/_master_files/code/my_modular_override.dm`: `proc/overriden_proc`, `var/overriden_var`
 <!--
@@ -51,6 +52,7 @@ ID мода: CELADON_SCP_096
 ### Дефайны
 
 - `mod_celadon\SCP096\code\_macros.dm`: `CATEGORY_SCP`, `isscp096(A) istype(A, /mob/living/scp096)` - пока выключены
+- `code\modules\SCP\SCPs\SCP-096.dm` :`// #undef STATE_096_IDLE // #undef STATE_096_CHASING // #undef STATE_096_STAGGERED` - Комментирование для последующего использования
 <!--
   Если требовалось добавить какие-либо дефайны, укажи файлы,
   в которые ты их добавил, а также перечисли имена.

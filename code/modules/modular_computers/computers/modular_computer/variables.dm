@@ -31,8 +31,8 @@
 	// [CELADON-EDIT] - CELADON_LAPTOP
 	// var/icon_state_menu = "menu"							// Icon state overlay when the computer is turned on, but no program is loaded that would override the screen. // CELADON-EDIT - ORIGINAL
 	// var/icon_state_screensaver = "standby" // CELADON-EDIT - ORIGINAL
-	var/icon_state_menu = "mod_celadon/laptop_rotate/icons/laptop_rotate.dmi/menu"							// Icon state overlay when the computer is turned on, but no program is loaded that would override the screen.
-	var/icon_state_screensaver = "mod_celadon/laptop_rotate/icons/laptop_rotate.dmi/standby"
+	var/icon_state_menu = "mod_celadon/laptop_rotate/icons/laptop_rotate_1.dmi/menu"							// Icon state overlay when the computer is turned on, but no program is loaded that would override the screen.
+	var/icon_state_screensaver = "mod_celadon/laptop_rotate/icons/laptop_rotate_1.dmi/standby"
 	// [/CELADON-EDIT]
 	var/max_hardware_size = 0								// Maximal hardware size. Currently, tablets have 1, laptops 2 and consoles 3. Limits what hardware types can be installed.
 	var/steel_sheet_cost = 5								// Amount of steel sheets refunded when disassembling an empty frame of this computer.
