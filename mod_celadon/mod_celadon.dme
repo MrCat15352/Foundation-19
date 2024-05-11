@@ -36,14 +36,3 @@
 	он всегда напоминает о своём существовании. Небольшая библиотека,
 	если так вообще можно выразиться.
  ---------------------------------------------------------------------*/
-// BEGIN_INTERNALS
-// END_INTERNALS
-// BEGIN_FILE_DIR
-#define FILE_DIR .
-// END_FILE_DIR
-// BEGIN_PREFERENCES
-// END_PREFERENCES
-// BEGIN_INCLUDE
-#include "_modpack.dm"
-#include "_modpacks.dm"
-// END_INCLUDE
