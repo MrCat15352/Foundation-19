@@ -20,7 +20,7 @@
 
 
 // --- MISC --- //
-
+#include "clothing/_clothing.dme"
 
 // --- MAPS --- //
 #include "__maps/_maps.dme"
