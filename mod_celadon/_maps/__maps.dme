@@ -1,6 +1,0 @@
-#ifndef MODPACK_CELADON_MAPS
-#define MODPACK_CELADON_MAPS
-
-#include "__maps.dm"
-
-#endif

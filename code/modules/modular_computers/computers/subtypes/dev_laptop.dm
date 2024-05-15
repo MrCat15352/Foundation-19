@@ -6,7 +6,7 @@
 	icon_state_unpowered = "laptop-open"
 	// [CELADON-EDIT] - CELADON_LAPTOP
 	// icon = 'icons/obj/modular_laptop.dmi' // CELADON-EDIT - ORIGINAL
-	icon = 'mod_celadon/laptop_rotate/icons/laptop_rotate.dmi'
+	icon = 'mod_celadon/laptop_rotate/icons/laptop_rotate_1.dmi'
 	// [/CELADON-EDIT]
 	icon_state = "laptop-open"
 	icon_state_screensaver = "standby"

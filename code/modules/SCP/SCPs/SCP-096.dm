@@ -367,8 +367,9 @@
 /mob/living/scp096/movement_delay()
 	return -2
 
+// [CELADON-REMOVE] - CELADON_SCP_096 - Убираем прерывание для -> mod_celadon\SCP096\code\SCP096.dm
 // #undef STATE_096_IDLE
 #undef STATE_096_SCREAMING
-#undef STATE_096_CHASING
-#undef STATE_096_SLAUGHTER
-#undef STATE_096_STAGGERED
+// #undef STATE_096_CHASING
+// [/CELADON-REMOVE]
+
